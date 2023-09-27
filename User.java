@@ -40,7 +40,7 @@ public class User {
         this.age = age;
     }
 
-    public String email() {
+    public String email(String login) {
         return login + "@cesi.com";
     }
 }
